@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test name="Safari Test">
+  <parameter name="browser" value="SAFARI"></parameter>
+    <classes>
+      <class name="con.seleniumGrid.SeleniumGridSample"/>
+    </classes>
+  </test>
+  
+  <test name="Firefox Test">
+  <parameter name="browser" value="FIREFOX"></parameter>
+    <classes>
+      <class name="con.seleniumGrid.SeleniumGridSample"/>
+    </classes>
+  </test>
+</suite> <!-- Suite -->

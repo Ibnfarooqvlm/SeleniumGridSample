@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Firefox Test(failed)">
+    <parameter name="browser" value="FIREFOX"/>
+    <classes>
+      <class name="con.seleniumGrid.SeleniumGridSample">
+        <methods>
+          <include name="launchBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- con.seleniumGrid.SeleniumGridSample -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
